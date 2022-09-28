@@ -9,8 +9,8 @@ import java.util.List;
 import org.junit.Test;
 
 import Sender.BMSData;
-import BMSSenderService;
-import BMSSenderServiceImpl;
+import Sender.BMSSenderService;
+import Sender.BMSSenderServiceImpl;
 
 
 
