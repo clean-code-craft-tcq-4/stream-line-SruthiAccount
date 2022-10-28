@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YRyG5yOdak7WL/CX7pyUSU/J6cZzwlpwL9gGQSFCU+mccs0F63DhF4oeFXl5Cxk7uas9Ammf2ztSObDLNJ+cpQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HYU1KOR\\source\\repos\\Receiver_TestCase\\Receiver_TestCase.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HYU1KOR\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512"
+  ],
+  "logs": []
+}

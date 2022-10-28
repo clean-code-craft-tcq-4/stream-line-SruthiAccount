@@ -1,0 +1,12 @@
+C:\Users\HYU1KOR\source\repos\Receiver_TestCase\bin\Debug\netcoreapp3.1\Receiver_TestCase.exe
+C:\Users\HYU1KOR\source\repos\Receiver_TestCase\bin\Debug\netcoreapp3.1\Receiver_TestCase.deps.json
+C:\Users\HYU1KOR\source\repos\Receiver_TestCase\bin\Debug\netcoreapp3.1\Receiver_TestCase.runtimeconfig.json
+C:\Users\HYU1KOR\source\repos\Receiver_TestCase\bin\Debug\netcoreapp3.1\Receiver_TestCase.runtimeconfig.dev.json
+C:\Users\HYU1KOR\source\repos\Receiver_TestCase\bin\Debug\netcoreapp3.1\Receiver_TestCase.dll
+C:\Users\HYU1KOR\source\repos\Receiver_TestCase\bin\Debug\netcoreapp3.1\Receiver_TestCase.pdb
+C:\Users\HYU1KOR\source\repos\Receiver_TestCase\obj\Debug\netcoreapp3.1\Receiver_TestCase.AssemblyInfoInputs.cache
+C:\Users\HYU1KOR\source\repos\Receiver_TestCase\obj\Debug\netcoreapp3.1\Receiver_TestCase.AssemblyInfo.cs
+C:\Users\HYU1KOR\source\repos\Receiver_TestCase\obj\Debug\netcoreapp3.1\Receiver_TestCase.csproj.CoreCompileInputs.cache
+C:\Users\HYU1KOR\source\repos\Receiver_TestCase\obj\Debug\netcoreapp3.1\Receiver_TestCase.dll
+C:\Users\HYU1KOR\source\repos\Receiver_TestCase\obj\Debug\netcoreapp3.1\Receiver_TestCase.pdb
+C:\Users\HYU1KOR\source\repos\Receiver_TestCase\obj\Debug\netcoreapp3.1\Receiver_TestCase.genruntimeconfig.cache
