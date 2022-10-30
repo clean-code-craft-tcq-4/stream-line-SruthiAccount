@@ -26,7 +26,11 @@ jobs:
       run: mvn test jacoco:report
     - name: Upload coverage
       uses: actions/upload-artifact@v2
+      
       with:
         name: coverage
         path: ./target/site/jacoco
         retention-days: 21
+        
+    - name: Build & Integrate
+      run: javac src/main/java/Sender/BMSSender.java
