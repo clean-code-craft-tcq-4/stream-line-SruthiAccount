@@ -23,7 +23,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Build & Integrate
-      run: javac src/main/java/Sender/BMSSender.java
+      run: javac src/main/java/Sender/BMSSender.java src/main/java/Sender/BMSSLogger.java src/main/java/Sender/BMSSenderServiceImpl.java src/main/java/Sender/BMSData.java src/main/java/Sender/BMSSenderService.java 
       
     - name: Build and Generate coverage
       run: mvn test jacoco:report
