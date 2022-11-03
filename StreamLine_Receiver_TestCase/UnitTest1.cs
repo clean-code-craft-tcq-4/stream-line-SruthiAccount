@@ -9,14 +9,14 @@ namespace StreamLine_Receiver_TestCase
     {
         readonly List<string> SampleConsoleData = new List<string>()
         {
-            "Temperature,StateOfCharge",
-            "24,21",
-            "29,31",
-            "36,20",
-            "11,27",
-            "30,76",
-            "30,74",
-            "20,26",
+            "Temperature--StateOfCharge",
+            "24--21",
+            "29--31",
+            "36--20",
+            "11--27",
+            "30--76",
+            "30--74",
+            "20--26",
         };
 
         readonly List<string> SampleConsoleNullData = new List<string>()
