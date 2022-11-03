@@ -33,7 +33,7 @@ namespace StreamLine_Receiver
 
 
         }
-
+        [ExcludeFromCodeCoverage]
         private static void printOnConsole(int maxTemperature, int minTemperature, int minSOC, int maxSOC, double socAverage, double temperatureAverage)
         {
             Console.WriteLine($"Maximum temperature:{maxTemperature}");
@@ -99,16 +99,6 @@ namespace StreamLine_Receiver
             return sensorParameters;
         }
 
-
-        public static List<int> GetTemperatureList(SensorParameter sensorParameter)
-        {
-            return sensorParameter.Temperature.ToList();
-        }
-
-        public static List<int> GetStateOfChargeList(SensorParameter sensorParameter)
-        {
-            return sensorParameter.StateOfCharge.ToList();
-        }
 
         public static int GetMinimumValue(List<int> parameterList)
         {
