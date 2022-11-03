@@ -20,14 +20,9 @@ namespace StreamLine_Receiver
         static void Main(string[] args)
         {
             
-            Console.WriteLine("Entered Void Main ");
+            
             SensorParameter SensorParameters = ReadSensorData();
-            Console.WriteLine("Crossed Void Main");
-            Console.WriteLine($"SensorParameters.Temperature count = {SensorParameters.Temperature.Count} ");
-            foreach(var x in SensorParameters.Temperature)
-            {
-                Console.WriteLine(x.ToString());
-            }
+            
             int maxTemp = GetMaximumValue(SensorParameters.Temperature);
             int minTemp = GetMinimumValue(SensorParameters.Temperature);
             int minSOC = GetMaximumValue(SensorParameters.StateOfCharge);
@@ -70,16 +65,13 @@ namespace StreamLine_Receiver
         
         public static SensorParameter ReadSensorData()
         {
-            Console.WriteLine("Entered ReadSensorData Method ");
+            
             List<string> consoleData = new List<string>();
             string summa = " ";
             for (int i = 0; i < 51; i++)
             {
-                summa = Console.ReadLine();
-                Console.WriteLine(summa);
-                consoleData.Add(summa);
-                Console.WriteLine($"{consoleData} , {i}");
-                //consoleData.Append(Console.ReadLine());
+                
+                consoleData.Add(Console.ReadLine());
                 
             }
 
@@ -89,9 +81,9 @@ namespace StreamLine_Receiver
 
         public static SensorParameter DataParser(List<string> Input_data)
         {
-            Console.WriteLine("Entered Data Parser Method ");
+            
             SensorParameter sensorParameters = new SensorParameter();
-            Console.WriteLine($"Input Data Count is {Input_data.Count} ");
+            
             string[] Seperated_String_Data;
             for (int i = 1; i < Input_data.Count; i++)
             {
@@ -102,19 +94,7 @@ namespace StreamLine_Receiver
 
 
 
-            }
-            Console.WriteLine($"Temp  Count is {sensorParameters.Temperature.Count} ");
-            foreach(var x in sensorParameters.Temperature)
-            {
-                Console.WriteLine(x.ToString());
-            }
-            Console.WriteLine($"SOC  Count is {sensorParameters.StateOfCharge.Count} ");
-            foreach(var x in sensorParameters.StateOfCharge)
-            {
-                Console.WriteLine(x.ToString());
-            }
-            
-            
+            }          
 
             return sensorParameters;
         }
