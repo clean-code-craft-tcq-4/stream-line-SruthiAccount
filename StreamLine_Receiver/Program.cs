@@ -88,8 +88,9 @@ namespace StreamLine_Receiver
 
         public static SensorParameter DataParser(List<string> Input_data)
         {
+            Console.WriteLine("Entered Data Parser Method ");
             SensorParameter sensorParameters = new SensorParameter();
-
+            Console.WriteLine($"Input Data Count is {Input_data.Count} ");
             string[] Seperated_String_Data;
             for (int i = 1; i < Input_data.Count; i++)
             {
