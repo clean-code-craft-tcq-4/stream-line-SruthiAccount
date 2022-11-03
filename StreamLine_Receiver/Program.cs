@@ -87,7 +87,7 @@ namespace StreamLine_Receiver
             string[] Seperated_String_Data;
             for (int i = 1; i < Input_data.Count; i++)
             {
-                Seperated_String_Data = Input_data[i].Split(",");
+                Seperated_String_Data = Input_data[i].Split("--");
 
                 sensorParameters.Temperature.Add(Int32.Parse(Seperated_String_Data[0].ToString()));
                 sensorParameters.StateOfCharge.Add(Int32.Parse(Seperated_String_Data[1].ToString()));
