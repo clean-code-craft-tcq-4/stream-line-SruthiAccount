@@ -23,7 +23,7 @@ namespace StreamLine_Receiver
             Console.WriteLine("Entered Void Main ");
             SensorParameter SensorParameters = ReadSensorData();
             Console.WriteLine("Crossed Void Main");
-            
+            Console.WriteLine($"SensorParameters.Temperature count = {SensorParameters.Temperature.Count} ");
             foreach(var x in SensorParameters.Temperature)
             {
                 Console.WriteLine(x.ToString());
@@ -102,6 +102,18 @@ namespace StreamLine_Receiver
 
 
             }
+            Console.WriteLine($"Temp  Count is {sensorParameters.Temperature.Count} ");
+            foreach(var x in sensorParameters.Temperature)
+            {
+                Console.WriteLine(x.ToString());
+            }
+            Console.WriteLine($"SOC  Count is {sensorParameters.StateOfCharge.Count} ");
+            foreach(var x in sensorParameters.StateOfCharge)
+            {
+                Console.WriteLine(x.ToString());
+            }
+            
+            
 
             return sensorParameters;
         }
