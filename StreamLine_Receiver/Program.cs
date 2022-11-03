@@ -62,7 +62,7 @@ namespace StreamLine_Receiver
 
         }
 
-        
+        [ExcludeFromCodeCoverage]
         public static SensorParameter ReadSensorData()
         {
             
