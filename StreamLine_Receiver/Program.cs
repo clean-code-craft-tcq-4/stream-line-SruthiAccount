@@ -77,7 +77,8 @@ namespace StreamLine_Receiver
             {
                 summa = Console.ReadLine();
                 Console.WriteLine(summa);
-                consoleData.Append(summa);
+                consoleData.Add(summa);
+                Console.WriteLine($"{consoleData} , {i}");
                 //consoleData.Append(Console.ReadLine());
                 
             }
