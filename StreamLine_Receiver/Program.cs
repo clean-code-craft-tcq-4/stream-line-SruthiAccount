@@ -23,12 +23,17 @@ namespace StreamLine_Receiver
             Console.WriteLine("Entered Void Main ");
             SensorParameter SensorParameters = ReadSensorData();
             Console.WriteLine("Crossed Void Main");
-            int maxTemp = GetMaximumValue(GetTemperatureList(SensorParameters));
-            int minTemp = GetMinimumValue(GetTemperatureList(SensorParameters));
-            int minSOC = GetMaximumValue(GetStateOfChargeList(SensorParameters));
-            int maxSOC = GetMinimumValue(GetStateOfChargeList(SensorParameters));
-            double socAverage = AverageOfLast5Values(GetStateOfChargeList(SensorParameters));
-            double temperatureAverage = AverageOfLast5Values(GetTemperatureList(SensorParameters));
+            
+            foreach(var x in SensorParameters.Temperature)
+            {
+                Console.WriteLine(x.ToString());
+            }
+            int maxTemp = GetMaximumValue(SensorParameters.Temperature);
+            int minTemp = GetMinimumValue(SensorParameters.Temperature);
+            int minSOC = GetMaximumValue(SensorParameters.StateOfCharge);
+            int maxSOC = GetMinimumValue(SensorParameters.StateOfCharge);
+            double socAverage = AverageOfLast5Values(SensorParameters.StateOfCharge);
+            double temperatureAverage = AverageOfLast5Values(SensorParameters.Temperature);
             printOnConsole(maxTemp, minTemp, minSOC, maxSOC, socAverage, temperatureAverage);
 
 
