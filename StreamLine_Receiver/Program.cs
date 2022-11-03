@@ -21,7 +21,7 @@ namespace StreamLine_Receiver
         {
             SensorParameter SensorParameters = ReadSensorData();
 
-
+            Console.WriteLine("Entered Void Main ");
             int maxTemp = GetMaximumValue(GetTemperatureList(SensorParameters));
             int minTemp = GetMinimumValue(GetTemperatureList(SensorParameters));
             int minSOC = GetMaximumValue(GetStateOfChargeList(SensorParameters));
@@ -64,10 +64,16 @@ namespace StreamLine_Receiver
         [ExcludeFromCodeCoverage]
         public static SensorParameter ReadSensorData()
         {
+            Console.WriteLine("Entered ReadSensorData Method ");
             List<string> consoleData = new List<string>();
+            string summa = " ";
             for (int i = 0; i < 51; i++)
             {
-                consoleData.Append(Console.ReadLine());
+                summa = Console.ReadLine();
+                Console.WriteLine(summa);
+                consoleData.Append(summa);
+                //consoleData.Append(Console.ReadLine());
+                
             }
 
             SensorParameter sensorParameters = DataParser(consoleData);
