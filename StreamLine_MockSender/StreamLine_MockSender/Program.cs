@@ -21,7 +21,7 @@ namespace StreamLine_MockSender
 
             for (int k = 0; k < data.Item1.Count; k++)
             {
-                string BMS_Sender = $"{Temperature[k]},{StateOfCharge[k]}";
+                string BMS_Sender = $"{Temperature[k]}--{StateOfCharge[k]}";
                 Console.WriteLine(BMS_Sender);
             }
         }
