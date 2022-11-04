@@ -84,15 +84,25 @@ namespace StreamLine_Receiver_TestCase
         [Fact]
         public void GetMaximumValueTest()
         {
-            float maximum = StreamLine_Receiver.ReceiverMain.GetMaximumValue(SampleTemperatureData);
+            float maximum;
+            
+            maximum = StreamLine_Receiver.ReceiverMain.GetMaximumValue(SampleTemperatureData);
             Assert.Equal(80, maximum);
+            
+            maximum = StreamLine_Receiver.ReceiverMain.GetMaximumValue(SampleNullData);
+            Assert.Equal(0, maximum);
         }
 
         [Fact]
         public void GetMinimumSOCTest()
         {
-            float minimum = StreamLine_Receiver.ReceiverMain.GetMinimumValue(SampleTemperatureData);
+            float minimum;
+            
+            minimum = StreamLine_Receiver.ReceiverMain.GetMinimumValue(SampleTemperatureData);
             Assert.Equal(30, minimum);
+            
+             minimum = StreamLine_Receiver.ReceiverMain.GetMinimumValue(SampleNullData);
+             Assert.Equal(0, minimum);
 
         }
     }
