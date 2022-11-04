@@ -67,7 +67,7 @@ namespace StreamLine_Receiver
         {
             
             List<string> consoleData = new List<string>();
-            string summa = " ";
+            
             for (int i = 0; i < 51; i++)
             {                
                 consoleData.Add(Console.ReadLine());                
@@ -107,7 +107,7 @@ namespace StreamLine_Receiver
             }
         }
 
-        public static bool GetMaximumValue(List<int> parameterList)
+        public static int GetMaximumValue(List<int> parameterList)
         {
             if (CheckNonEmptyList(parameterList))
             {
