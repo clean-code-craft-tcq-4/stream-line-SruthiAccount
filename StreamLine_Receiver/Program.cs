@@ -124,9 +124,9 @@ namespace StreamLine_Receiver
             }
         }
         
-        public static int CheckNonEmptyList(List<object> data)
+        public static int CheckNonEmptyList(List<int> data)
         {
-            if(data.count < 1)
+            if(data.Count < 1)
             {
                 return 0;
             }
