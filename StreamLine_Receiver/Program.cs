@@ -107,7 +107,7 @@ namespace StreamLine_Receiver
             }
         }
 
-        public static int GetMaximumValue(List<int> parameterList)
+        public static bool GetMaximumValue(List<int> parameterList)
         {
             if (CheckNonEmptyList(parameterList))
             {
@@ -119,7 +119,7 @@ namespace StreamLine_Receiver
             }
         }
         
-        public static int CheckNonEmptyList(List<int> data)
+        public static bool CheckNonEmptyList(List<int> data)
         {
             if(data.Count < 1)
             {
