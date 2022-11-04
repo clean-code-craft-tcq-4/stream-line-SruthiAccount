@@ -63,7 +63,7 @@ namespace StreamLine_Receiver
         }
 
         [ExcludeFromCodeCoverage]
-        public static SensorParameter ReadSensorData()
+        private static SensorParameter ReadSensorData()
         {
             
             List<string> consoleData = new List<string>();
