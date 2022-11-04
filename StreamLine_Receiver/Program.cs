@@ -123,11 +123,11 @@ namespace StreamLine_Receiver
         {
             if(data.Count < 1)
             {
-                return False;
+                return false;
             }
             else
             {
-                return True;
+                return true;
             }
            
         }
