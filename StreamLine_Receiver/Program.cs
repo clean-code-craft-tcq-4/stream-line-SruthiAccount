@@ -69,10 +69,8 @@ namespace StreamLine_Receiver
             List<string> consoleData = new List<string>();
             string summa = " ";
             for (int i = 0; i < 51; i++)
-            {
-                
-                consoleData.Add(Console.ReadLine());
-                
+            {                
+                consoleData.Add(Console.ReadLine());                
             }
 
             SensorParameter sensorParameters = DataParser(consoleData);
@@ -80,8 +78,7 @@ namespace StreamLine_Receiver
         }
 
         public static SensorParameter DataParser(List<string> Input_data)
-        {
-            
+        {           
             SensorParameter sensorParameters = new SensorParameter();
             
             string[] Seperated_String_Data;
@@ -91,8 +88,6 @@ namespace StreamLine_Receiver
 
                 sensorParameters.Temperature.Add(Int32.Parse(Seperated_String_Data[0].ToString()));
                 sensorParameters.StateOfCharge.Add(Int32.Parse(Seperated_String_Data[1].ToString()));
-
-
 
             }          
 
@@ -128,11 +123,11 @@ namespace StreamLine_Receiver
         {
             if(data.Count < 1)
             {
-                return 0;
+                return False;
             }
             else
             {
-                return 1;
+                return True;
             }
            
         }
