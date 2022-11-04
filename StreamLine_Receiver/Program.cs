@@ -106,7 +106,10 @@ namespace StreamLine_Receiver
             {
                 return parameterList.Min();
             }
-            return 0;
+            else
+            {
+                return 0;    
+            }
         }
 
         public static int GetMaximumValue(List<int> parameterList)
@@ -115,8 +118,10 @@ namespace StreamLine_Receiver
             {
                 return parameterList.Max();
             }
-
-            return 0;
+            else
+            {
+                return 0;    
+            }
         }
         
         public static int CheckNonEmptyList(List<object> data)
