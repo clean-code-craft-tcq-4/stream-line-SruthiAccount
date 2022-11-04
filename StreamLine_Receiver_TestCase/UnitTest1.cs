@@ -34,6 +34,19 @@ namespace StreamLine_Receiver_TestCase
 
         };
 
+        
+        public void CheckValidInputIntegerList()
+        {
+            bool Feedback;
+            
+            Feedback = StreamLine_Receiver.ReceiverMain.CheckNonEmptyList(SampleTemperatureData);
+            Assert.True(Feedback);
+            
+            Feedback = StreamLine_Receiver.ReceiverMain.CheckNonEmptyList(SampleNullData);
+            Assert.False(Feedback);
+            
+        }
+        
         [Fact]
         public void DataParserTest()
         {
