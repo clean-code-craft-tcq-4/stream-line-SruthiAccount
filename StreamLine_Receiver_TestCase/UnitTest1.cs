@@ -34,7 +34,7 @@ namespace StreamLine_Receiver_TestCase
 
         };
 
-        
+        [Fact]
         public void CheckValidInputIntegerList()
         {
             bool Feedback;
