@@ -102,7 +102,7 @@ namespace StreamLine_Receiver
 
         public static int GetMinimumValue(List<int> parameterList)
         {
-            if (parameterList.Count > 1)
+            if (CheckNonEmptyList(parameterList))
             {
                 return parameterList.Min();
             }
@@ -111,12 +111,23 @@ namespace StreamLine_Receiver
 
         public static int GetMaximumValue(List<int> parameterList)
         {
-            if (parameterList.Count > 1)
+            if (CheckNonEmptyList(parameterList))
             {
                 return parameterList.Max();
             }
 
             return 0;
         }
+        
+        public static int CheckNonEmptyList(List<object> data)
+        {
+            if(data.count < 1)
+            {
+                return 0;
+            }
+            else
+            {
+                return 1;
+            }
     }
 }
