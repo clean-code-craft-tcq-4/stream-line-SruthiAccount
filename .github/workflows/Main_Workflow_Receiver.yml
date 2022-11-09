@@ -28,7 +28,7 @@ jobs:
     - name: Run tests and collect coverage for reciever
       run: dotnet test ./StreamLine_Receiver_TestCase/StreamLine_Receiver_TestCase.csproj  --collect:"XPlat Code Coverage"
       
-    - name: Run project
+    - name: Run Mock Sender
       run:  dotnet run --project ./StreamLine_MockSender/StreamLine_MockSender/StreamLine_MockSender.csproj
       
     - name: integrate run
