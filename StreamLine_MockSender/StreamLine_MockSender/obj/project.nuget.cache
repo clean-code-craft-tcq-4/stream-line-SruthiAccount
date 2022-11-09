@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6IKaqTcGEZXA8Xl5ZubXa5PXhXWEvcfm+tR3W0KkKFm0xInf82E2XOqL86/aqF5ezcBgpA7IlkkMJFwhdfaS+g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HYU1KOR\\Desktop\\TCQ\\Receiver\\StreamLine_Receiver\\StreamLine_MockSender\\StreamLine_MockSender\\StreamLine_MockSender.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HYU1KOR\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512"
+  ],
+  "logs": []
+}

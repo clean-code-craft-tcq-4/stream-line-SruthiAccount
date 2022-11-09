@@ -1,0 +1,12 @@
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_MockSender\StreamLine_MockSender\bin\Debug\netcoreapp3.1\StreamLine_MockSender.exe
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_MockSender\StreamLine_MockSender\bin\Debug\netcoreapp3.1\StreamLine_MockSender.deps.json
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_MockSender\StreamLine_MockSender\bin\Debug\netcoreapp3.1\StreamLine_MockSender.runtimeconfig.json
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_MockSender\StreamLine_MockSender\bin\Debug\netcoreapp3.1\StreamLine_MockSender.runtimeconfig.dev.json
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_MockSender\StreamLine_MockSender\bin\Debug\netcoreapp3.1\StreamLine_MockSender.dll
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_MockSender\StreamLine_MockSender\bin\Debug\netcoreapp3.1\StreamLine_MockSender.pdb
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_MockSender\StreamLine_MockSender\obj\Debug\netcoreapp3.1\StreamLine_MockSender.AssemblyInfoInputs.cache
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_MockSender\StreamLine_MockSender\obj\Debug\netcoreapp3.1\StreamLine_MockSender.AssemblyInfo.cs
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_MockSender\StreamLine_MockSender\obj\Debug\netcoreapp3.1\StreamLine_MockSender.csproj.CoreCompileInputs.cache
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_MockSender\StreamLine_MockSender\obj\Debug\netcoreapp3.1\StreamLine_MockSender.dll
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_MockSender\StreamLine_MockSender\obj\Debug\netcoreapp3.1\StreamLine_MockSender.pdb
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_MockSender\StreamLine_MockSender\obj\Debug\netcoreapp3.1\StreamLine_MockSender.genruntimeconfig.cache
