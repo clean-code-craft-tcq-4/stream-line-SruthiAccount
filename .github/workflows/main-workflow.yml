@@ -30,3 +30,7 @@ jobs:
         name: coverage
         path: ./target/site/jacoco
         retention-days: 21
+    - name: Build and main class
+      run: javac BMSSender.java
+    - name: Run BMS Data Sender Print data to console
+      run: java BMSSender
