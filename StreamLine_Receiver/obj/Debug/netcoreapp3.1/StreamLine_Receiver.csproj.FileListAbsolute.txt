@@ -1,0 +1,12 @@
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_Receiver\bin\Debug\netcoreapp3.1\StreamLine_Receiver.exe
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_Receiver\bin\Debug\netcoreapp3.1\StreamLine_Receiver.deps.json
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_Receiver\bin\Debug\netcoreapp3.1\StreamLine_Receiver.runtimeconfig.json
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_Receiver\bin\Debug\netcoreapp3.1\StreamLine_Receiver.runtimeconfig.dev.json
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_Receiver\bin\Debug\netcoreapp3.1\StreamLine_Receiver.dll
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_Receiver\bin\Debug\netcoreapp3.1\StreamLine_Receiver.pdb
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_Receiver\obj\Debug\netcoreapp3.1\StreamLine_Receiver.AssemblyInfoInputs.cache
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_Receiver\obj\Debug\netcoreapp3.1\StreamLine_Receiver.AssemblyInfo.cs
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_Receiver\obj\Debug\netcoreapp3.1\StreamLine_Receiver.csproj.CoreCompileInputs.cache
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_Receiver\obj\Debug\netcoreapp3.1\StreamLine_Receiver.dll
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_Receiver\obj\Debug\netcoreapp3.1\StreamLine_Receiver.pdb
+C:\Users\HYU1KOR\Desktop\TCQ\Receiver\StreamLine_Receiver\StreamLine_Receiver\obj\Debug\netcoreapp3.1\StreamLine_Receiver.genruntimeconfig.cache

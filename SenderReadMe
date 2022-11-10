@@ -1,0 +1,3 @@
+The start point of sender code execution is BMSSender.java
+The generated output that would be printed on console would be of form temp--soc--chargeRate
+This prints 50 rows data onto console
