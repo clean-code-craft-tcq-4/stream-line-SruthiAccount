@@ -18,12 +18,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         fetch-depth: 0
-    - name: Set up JDK 1.8
-      uses: actions/setup-java@v1
-      with:
-          java-version: 1.8
-    - name: Build and Generate coverage
-      run: mvn test jacoco:report
+ 
 
     # Install the .NET Core workload
     - name: Install .NET Core
@@ -37,11 +32,8 @@ jobs:
     - name: Run Mock Sender
       run:  dotnet run --project ./StreamLine_MockSender/StreamLine_MockSender/StreamLine_MockSender.csproj
       
-    - name: Build and main class
-      run: javac BMSSender.java  
-      
     - name: integrate run
-      run: java BMSSender | dotnet run --project ./StreamLine_Receiver/StreamLine_Receiver.csproj
+      run: dotnet run --project ./StreamLine_MockSender/StreamLine_MockSender/StreamLine_MockSender.csproj|dotnet run --project ./StreamLine_Receiver/StreamLine_Receiver.csproj
     - name: Install coverage report generator
       run: dotnet tool install -g dotnet-reportgenerator-globaltool
 
